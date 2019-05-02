@@ -28,3 +28,7 @@ Hello World!
 如果需要退出node环境，可以在终端连续输入**两次**：`Ctrl+C`即可。如图：
 
 ![node学习](../node学习图片资源/02.png)
+
+3. 注意
+
+Node.js使得JavaScript可以脱离浏览器的窗口，独立运行在Node.js提供的环境中，所以Node.js中没有**BOM，DOM**这些概念。Node.js中根本没有页面，主要是进行一些服务器上的操作（比如：读写文件，网络通信...）。我们只需要基本的JavaScript语法基础（ES6）即可学习。
