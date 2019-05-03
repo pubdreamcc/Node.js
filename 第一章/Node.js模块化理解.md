@@ -1,6 +1,11 @@
 Node.js采用的是CommonJs规范，在NodeJS中，一般将代码合理拆分到不同的JS文件中，每一个文件就是一个模块，而文件路径就是模块名。
 在编写每个模块时，都有require、exports、module三个预先定义好的变量可供使用。
 
+> Node.js中模块的分类：
+* 核心模块（已经封装好的内置模块）；
+* 自己定义的模块；
+* 第三方的模块（npm下载下来的）； 
+
 1. require
 
 `require`函数用来在一个模块中引入另外一个模块。传入一个模块名，返回一个模块导出对象。用法：` let cc = require("模块名")` ，其中模块名可以用绝对路径也可以用相对路径,模块的后缀名.js可以省略。例如：
@@ -9,6 +14,10 @@ let cc1 = require('./main.js')
 let cc2 = require('home/src/main.js')
 let cc3 = require('./main')
 ```
+require()函数用两个作用：
+
+* 执行导入的模块中的代码；
+* 返回导入模块中的接口对象； 
 
 2. exports
 
