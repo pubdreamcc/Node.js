@@ -35,4 +35,5 @@ let os = require('os')
 console.log(os.totalmem())
 ```
 效果如下：
+
 ![node演示](../node学习图片资源/13.png)
