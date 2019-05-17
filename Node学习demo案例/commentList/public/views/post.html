@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/public/lib/bootstrap/dist/css/bootstrap.css">
+  <title>发表评论</title>
+  <style>
+  .comment-form{
+    width: 600px;
+    margin: 0 auto;
+  }</style>
+</head>
+<body>
+  
+  <form action="/comment" method="GET" role="form" class="comment-form">
+    <legend>开始评论</legend>
+    <div class="form-group">
+      <label for="name">你的大名：</label>
+      <input type="text" name="name" class="form-control" id="name" placeholder="请输入你的大名" required maxlength="10" minlength="2">
+    </div>
+    <div class="form-group">
+      <label for="content">评论内容：</label>
+      <textarea name="content" id="content" class="form-control" rows="6" required minlength="5" maxlength="10"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">提交</button>
+  </form>
+</body>
+</html>
