@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>comment-list</title>
+  <link rel="stylesheet" href="/public/lib/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/public/css/index.css">
+</head>
+<body>
+  <div class="title"><p>node.js评论社区</p></div>
+  <div class="comment">
+    <p>请发表评论</p>
+    <button class="btn btn-primary" id="btn">发表</button>
+  </div>
+  <ul class="list-group comment-list">
+    {{each comments}}
+    <li class="list-group-item">{{$value.content}}<span class="time">{{$value.time}}</span> <span class="name">{{$value.name}}</span></li>
+    {{/each}}
+  </ul>
+  <script src="/public/js/index.js"></script>
+</body>
+</html>

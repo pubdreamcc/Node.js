@@ -1,0 +1,41 @@
+.title{
+  background-color: gray;
+  height: 200px;
+  padding: 50px 0 0 200px;
+}
+.title p{
+  color: #bbffaa;
+  font: bold 38px "微软雅黑";
+}
+.comment-list{
+  width: 800px;
+  margin: 50px auto 0;
+  color: aquamarine;
+  font: 500 28px "微软雅黑";
+}
+.comment-list li .name{
+  color: black;
+  font: italic 300 23px '微软雅黑';
+  float: right;
+  margin-right: 20px;
+}
+.comment-list li .time{
+  float: right;
+  font: italic 200 18px '微软雅黑';
+  color: coral;
+}
+.comment {
+  width: 800px;
+  padding: 50px 0 0 100px;
+  height: 80px;
+  margin: 20px auto 0;
+}
+.comment p{
+  color: black;
+  display: inline-block;
+  font-size: 32px;
+  font-family: '微软雅黑';
+}
+.comment button{
+  margin-left: 10px;
+}
