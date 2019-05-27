@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/public/css/bootstrap/dist/css/bootstrap.css">
+  <title>热点新闻</title>
+</head>
+<body>
+  <div class="list-group">
+    {{each result}}
+    <a href="{{$value.href}}" class="list-group-item active">{{$value.title}}</a>
+    {{/each}}
+  </div>
+</body>
+</html>
