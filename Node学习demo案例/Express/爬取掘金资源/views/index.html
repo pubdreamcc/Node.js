@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/public/css/bootstrap/dist/css/bootstrap.css">
+  <title>首页</title>
+</head>
+<body>
+  <div class="page-header">
+    <h2 style="text-align: center">爬取掘金前端优质文章</h2>
+    <p style="text-align: right; padding-right: 50px;">---&nbsp;&nbsp;&nbsp;按发表顺序前40篇点赞大于50的会出现在这里</p>
+  </div>
+  <ul class="list-group">
+    {{each result}}
+    <li class="list-group-item">
+      <a href="{{$value.node.originalUrl}}" target="_blank">{{$value.node.title}}</a>
+      <img data-v-7bf5f1fe="" src="https://b-gold-cdn.xitu.io/v3/static/img/zan.e9d7698.svg">
+      <span>{{$value.node.likeCount}}</span>
+    </li>
+    {{/each}}
+  </ul>
+</body>
+</html>
