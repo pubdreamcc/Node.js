@@ -65,7 +65,7 @@ mongod --dbpath 文件路径
 {"name":"pubdreamcc", "age": 24}
 ```
 
-`集合`：集合就是 MongoDB 文档组，实质上就是包含多个键值对的对象。
+`集合`：集合就是 MongoDB 文档组，实质上就是包含多个对象的数组。
 
 比如，我们可以将以下不同数据结构的文档插入到集合中：
 
@@ -170,7 +170,7 @@ db.col.find().pretty()
 
 `pretty()` 方法以格式化的方式来显示所有文档。
 
-12. 查询一个文档（最先添加的那一个）：`db.collection.findOne()`
+12. 查询一个文档（匹配条件的第一个）：`db.collection.findOne()`
 
 ## 写在后面
 
