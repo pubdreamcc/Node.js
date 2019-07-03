@@ -44,8 +44,12 @@
 
 * [express重写评论社区](https://github.com/pubdreamcc/Node.js/tree/master/Node%E5%AD%A6%E4%B9%A0demo%E6%A1%88%E4%BE%8B/Express/expressCommentList)
 
+* [express实现学生信息管理系统](https://github.com/pubdreamcc/Student-Management-System)
+
 * [node爬取百度新闻热点news](https://github.com/pubdreamcc/Node.js/tree/master/Node%E5%AD%A6%E4%B9%A0demo%E6%A1%88%E4%BE%8B/Express/Node.js%E5%AE%9E%E7%8E%B0%E7%88%AC%E8%99%AB)
 
 * [node爬取掘金前端优质文章](https://github.com/pubdreamcc/Node.js/tree/master/Node%E5%AD%A6%E4%B9%A0demo%E6%A1%88%E4%BE%8B/Express/%E7%88%AC%E5%8F%96%E6%8E%98%E9%87%91%E8%B5%84%E6%BA%90)
 
 * [mongoose操作mongoDB增删改查](https://github.com/pubdreamcc/Node.js/tree/master/Node%E5%AD%A6%E4%B9%A0demo%E6%A1%88%E4%BE%8B/mongoose-demo)
+
+* [node 连接 mongoDB 模仿cnode中文交流社区](https://github.com/pubdreamcc/Blog-Forum)
