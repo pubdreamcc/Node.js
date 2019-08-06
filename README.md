@@ -16,7 +16,7 @@
 
 下面的知识点也是按照学习的顺序循序渐进，由浅及深，读者可以仿照来阅读。
 
-* [学习 node 有啥用？](https://github.com/pubdreamcc/Node.js/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/%E5%AD%A6%E4%B9%A0Node%E8%83%BD%E5%A4%9F%E4%B8%BA%E6%88%91%E4%BB%AC%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88.md)
+* [学习 node 有啥用？](https://github.com/pubdreamcc/Node.js/blob/master/%E7%AC%AC%E4%B8%80%E7%AB%A0/01.%E5%AD%A6%E4%B9%A0Node%E8%83%BD%E5%A4%9F%E4%B8%BA%E6%88%91%E4%BB%AC%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88.md)
 
 * [node简介及模块化理解](https://github.com/pubdreamcc/Node.js/tree/master/%E7%AC%AC%E4%B8%80%E7%AB%A0)
 
