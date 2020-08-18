@@ -8,16 +8,14 @@
   <title>首页</title>
 </head>
 <body>
-  <div class="page-header">
+  <div class="page-header" style="margin: 50px 0">
     <h2 style="text-align: center">爬取掘金前端优质文章</h2>
-    <p style="text-align: right; padding-right: 50px;">---&nbsp;&nbsp;&nbsp;按发表顺序前40篇点赞大于50的会出现在这里</p>
   </div>
   <ul class="list-group">
     {{each result}}
     <li class="list-group-item">
-      <a href="{{$value.node.originalUrl}}" target="_blank">{{$value.node.title}}</a>
-      <img data-v-7bf5f1fe="" src="https://b-gold-cdn.xitu.io/v3/static/img/zan.e9d7698.svg">
-      <span>{{$value.node.likeCount}}</span>
+      <a href="{{$value.originalUrl}}" target="_blank">{{$value.title}}</a>
+      <span>{{$value.user.username}}</span>
     </li>
     {{/each}}
   </ul>
